@@ -32,7 +32,7 @@
 
 A aplicação que iremos dar início ao desenvolvimento a partir de agora é um app gerenciador de academia, o **Gympoint**.
 
-Nesse primeiro desafio vamos criar algumas funcionalidades básicas que aprendemos ao longo das aulas até aqui. 
+Nesse primeiro desafio vamos criar algumas funcionalidades básicas que aprendemos ao longo das aulas até aqui.
 
 ### Um pouco sobre as ferramentas
 
@@ -63,11 +63,3 @@ O cadastro de alunos só pode ser feito por administradores autenticados na apli
 
 O aluno não pode se autenticar no sistema, ou seja, não possui senha.
 
-
-## :memo: Licença
-
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
-
----
-
-Feito com ♥ by Rocketseat :wave: [Entre na nossa comunidade!](https://discordapp.com/invite/gCRAFhc)
