@@ -40,7 +40,7 @@ Você deverá criar a aplicação do zero utilizando o [Express](https://express
 
 - Sucrase + Nodemon;
 - ESLint + Prettier + EditorConfig;
-- Sequelize (Utilize PostgreSQL ou MySQL);
+- Sequelize utilizando PostgreSQL;
 
 ### Funcionalidades
 
