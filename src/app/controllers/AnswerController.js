@@ -25,15 +25,17 @@ class AnswerController {
     }
 
     const { answer } = req.body;
+
     await help_order.update({
       answer,
       answer_at: new Date(),
     });
 
     // email envio
-    await Queue.add(AnswerMail.key, {
-      answer,
-    });
+    // await Queue.add(AnswerMail.key, {
+    //   answer,
+    // });
+
     return res.json(help_order);
   }
 }
