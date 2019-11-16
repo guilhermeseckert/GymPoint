@@ -12,7 +12,7 @@ class WellcomeMail {
 
     await Mail.sendMail({
       to: `${student.name} <${student.email}`,
-      subject: 'Agendamento Cancelado',
+      subject: 'Registro realizado com sucesso',
       template: 'register',
 
       context: {

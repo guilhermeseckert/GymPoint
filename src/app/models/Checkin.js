@@ -1,12 +1,10 @@
 import Sequelize, { Model } from 'sequelize';
 
-class Plan extends Model {
+class Checkin extends Model {
   static init(sequelize) {
     super.init(
       {
-        title: Sequelize.STRING,
-        duration: Sequelize.INTEGER,
-        price: Sequelize.FLOAT,
+        student_id: Sequelize.INTEGER,
       },
       {
         sequelize,
@@ -20,8 +18,7 @@ class Plan extends Model {
       foreignKey: 'student_id',
       as: 'student',
     });
-    this.belongsTo(models.Plan, { foreignKey: 'plan_id', as: 'plan' });
   }
 }
 
-export default Plan;
+export default Checkin;
