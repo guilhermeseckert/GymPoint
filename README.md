@@ -65,8 +65,10 @@ $yarn install
 $ yarn dev
 ```
 
-<img align="center" alt="Gympoint" title="Gympoint" src="https://media.giphy.com/media/12R2bKfxceemNq/giphy.gif" width="200px"
- />
+ 
+ <h1 align="center">
+  alt="Gympoint" title="buzz lightyaer" src="https://media.giphy.com/media/12R2bKfxceemNq/giphy.gif" width="200px"
+</h1>
 
 
 
