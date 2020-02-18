@@ -66,7 +66,7 @@ $ yarn dev
 ```
 
 <h1 align="center" border-radius= "50%">
-  <img alt="buzz" title="buzz" src="https://media.giphy.com/media/c0NwRD0Vi5Cta/giphy.gif" width="200px" />
+  <img alt="buzz" title="buzz" src="https://media.giphy.com/media/h7FqA5FAhcLfH1i6gS/giphy.gif" width="200px" />
 </h1>
 
 
