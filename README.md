@@ -60,14 +60,14 @@ $ docker run -p 5432:5432 -e POSTGRES_PASSWORD=1234 postgres
 $ docker run --name testemongo -p 17017:17017 -d mongo
 $ docker run --name testeredis -p 6379:6379 -d redis
 
-#Criando as tabelas no banco de dados
-$ sequelize db:migrate
-
 #Navegue ate pasta
 $ cd Gympoint
 
 #Instalar as dependencias do projeto
 $yarn install
+
+#Criando as tabelas no banco de dados
+$ sequelize db:migrate
 
 #Iniciando o backend
 $ yarn dev
