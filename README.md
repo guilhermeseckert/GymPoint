@@ -56,7 +56,6 @@ Para esta aplicaçao voce precisar ter instalado o [Node.js][nodejs], [Yarn][yar
 $git clone https://github.com/guilhermeseckert/GYMPOINT Gympoint
 
 #Criando base no dockert
-
 $ run --name database-postgres -p 3306 -e MYSQL_ROOT_PASSWORD=my-secret-pw -d postgres:latest
 
 #Criando as tabelas no banco de dados
