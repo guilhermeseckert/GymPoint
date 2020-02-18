@@ -65,8 +65,8 @@ $yarn install
 $ yarn dev
 ```
 
-<h1 align="center">
-  <img alt="buzz" title="buzz" src="https://media.giphy.com/media/12R2bKfxceemNq/giphy.gif" width="200px" />
+<h1 align="center" border-radius= "50%">
+  <img alt="buzz" title="buzz" src="https://media.giphy.com/media/c0NwRD0Vi5Cta/giphy.gif" width="200px" />
 </h1>
 
 
