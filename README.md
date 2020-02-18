@@ -55,8 +55,10 @@ Para esta aplicaçao voce precisar ter instalado o [Node.js][nodejs], [Yarn][yar
 #Clone o repositorio com o comando
 $git clone https://github.com/guilhermeseckert/GYMPOINT Gympoint
 
-#Criando base no dockert
-$ run --name database-postgres -p 3306 -e MYSQL_ROOT_PASSWORD=my-secret-pw -d postgres:latest
+#Criando base no Docker
+$ docker run --name database-postgres -p 3306 -e MYSQL_ROOT_PASSWORD=my-secret-pw -d postgres:latest
+$ docker run --name testemongo -p 17017:17017 -d mongo
+$ docker run --name testeredis -p 6379:6379 -d redis
 
 #Criando as tabelas no banco de dados
 $ sequelize db:migrate
