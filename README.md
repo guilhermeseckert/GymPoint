@@ -3,13 +3,14 @@
 </h1>
 
 <h3 align="center">
-  Desafio 2: Gympoint, o início
+      Gympoint
 </h3>
 
-<blockquote align="center">“Não espere para plantar, apenas tenha paciência para colher”!</blockquote>
+<blockquote align="center">“Não fique olhando o relógio faça como ele mexa-se”!</blockquote>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/rocketseat/bootcamp-gostack-desafio-02?color=%2304D361">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/commonality/readme-inspector.svg">
+  <img alt="Top language" src="https://img.shields.io/github/languages/top/commonality/readme-inspector.svg">
 
   <a href="https://rocketseat.com.br">
     <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-%2304D361">
@@ -28,15 +29,11 @@
   <a href="#memo-licença">Licença</a>
 </p>
 
-## :rocket: Sobre o desafio
+## :gympoit: Sobre o projeto
 
-A aplicação que iremos dar início ao desenvolvimento a partir de agora é um app gerenciador de academia, o **Gympoint**.
+A aplicação a ser desenvolvida agora é uma aplicativode gerenciamento de academia o **Gympoint**.
 
-Nesse primeiro desafio vamos criar algumas funcionalidades básicas que aprendemos ao longo das aulas até aqui.
-
-### Um pouco sobre as ferramentas
-
-Você deverá criar a aplicação do zero utilizando o [Express](https://expressjs.com/), além de precisar configurar as seguintes ferramentas:
+### ferramentas utilizadas
 
 - Sucrase + Nodemon;
 - ESLint + Prettier + EditorConfig;
@@ -44,22 +41,24 @@ Você deverá criar a aplicação do zero utilizando o [Express](https://express
 
 ### Funcionalidades
 
-Abaixo estão descritas as funcionalidades que você deve adicionar em sua aplicação.
-
 #### 1. Autenticação
 
-Permita que um usuário se autentique em sua aplicação utilizando e-mail e uma senha.
-
-Crie um usuário administrador utilizando a funcionalidade de [seeds do sequelize](https://sequelize.org/master/manual/migrations.html#creating-first-seed), essa funcionalidade serve para criarmos registros na base de dados de forma automatizada.
-
+Permitir que um usuário se autentique em sua aplicação utilizando e-mail e uma senha.
 
 #### 2. Cadastro de alunos
 
-Permita que alunos sejam mantidos (cadastrados/atualizados) na aplicação utilizando nome, email, idade, peso e altura.
+Permitir que alunos sejam mantidos (cadastrados/atualizados) na aplicação utilizando nome, email, idade, peso e altura, avatar.
+O cadastro dos alunos só é feito por administradores autenticados na aplicaçã
 
-Utilize uma nova tabela no banco de dados chamada `students`.
+#### 3. Agendamento
 
-O cadastro de alunos só pode ser feito por administradores autenticados na aplicação.
+Opçao de agendamento de treinos
 
-O aluno não pode se autenticar no sistema, ou seja, não possui senha.
+#### 4. Notificaçao de agendamento
+
+Notificaçao de agendamento por e-mail.
+
+
+
+
 
