@@ -12,28 +12,21 @@
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/commonality/readme-inspector.svg">
   <img alt="Top language" src="https://img.shields.io/github/languages/top/commonality/readme-inspector.svg">
 
-  <a href="https://rocketseat.com.br">
-    <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-%2304D361">
-  </a>
-
   <img alt="License" src="https://img.shields.io/badge/license-MIT-%2304D361">
-
-  <a href="https://github.com/Rocketseat/bootcamp-gostack-desafio-02/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/rocketseat/bootcamp-gostack-desafio-02?style=social">
-  </a>
 </p>
 
 <p align="center">
-  <a href="#rocket-sobre-o-desafio">Sobre o desafio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-entrega">Entrega</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#Sobre o Projeto">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#Dependencias">Dependencias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#Ferramentas">Dependencias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
 
-## :gympoit: Sobre o projeto
+## Gympoit: Sobre o projeto
 
 A aplicação a ser desenvolvida agora é uma aplicativode gerenciamento de academia o **Gympoint**. Nesta repositorio esta listado o backend da aplicação.
 
-### ferramentas utilizadas
+### Ferramentas utilizadas
 
 - Sucrase + Nodemon;
 - ESLint + Prettier + EditorConfig;
@@ -59,7 +52,7 @@ Opçao de agendamento de treinos
 Notificaçao de agendamento por e-mail.
 
 ### informações para uso do codigo
-Para esta aplicaçao voce precisar ter instalado o [Node.js][nodejs], [Yarn][yarn], [Docker] [docker] no seu computador para conseguir usar as linhas de comando abaixo.
+Para esta aplicaçao voce precisar ter instalado o [Node.js][nodejs], [Yarn][yarn], [Docker][docker] no seu computador para conseguir usar as linhas de comando abaixo.
 
 ```bash
 #Clone o repositorio com o comando
@@ -80,5 +73,4 @@ Made with by Guilherme S Eckert :wave: [Get in touch!](https://www.linkedin.com/
 
 [nodejs]: https://nodejs.org/
 [yarn]: https://yarnpkg.com/
-[vc]: https://code.visualstudio.com/
 [docker]:https://www.docker.com/
