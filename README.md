@@ -38,11 +38,11 @@ Permitir que um usuário se autentique em sua aplicação utilizando e-mail e um
 #### 2. Cadastro de alunos
 
 Permitir que alunos sejam mantidos (cadastrados/atualizados) na aplicação utilizando nome, email, idade, peso e altura, avatar.
-O cadastro dos alunos só é feito por administradores autenticados na aplicação
+O cadastro dos alunos só é feito por administradores autenticados na aplicação.
 
 #### 3. Agendamento
 
-Opçao de agendamento de treinos
+Opçao de agendamento de treinos.
 
 #### 4. Notificaçao de agendamento
 
@@ -54,6 +54,13 @@ Para esta aplicaçao voce precisar ter instalado o [Node.js][nodejs], [Yarn][yar
 ```bash
 #Clone o repositorio com o comando
 $git clone https://github.com/guilhermeseckert/GYMPOINT Gympoint
+
+#Criando base no dockert
+
+$ run --name database-postgres -p 3306 -e MYSQL_ROOT_PASSWORD=my-secret-pw -d postgres:latest
+
+#Criando as tabelas no banco de dados
+$ sequelize db:migrate
 
 #Navegue ate pasta
 $ cd Gympoint
