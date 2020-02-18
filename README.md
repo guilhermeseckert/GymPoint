@@ -31,7 +31,7 @@
 
 ## :gympoit: Sobre o projeto
 
-A aplicação a ser desenvolvida agora é uma aplicativode gerenciamento de academia o **Gympoint**.
+A aplicação a ser desenvolvida agora é uma aplicativode gerenciamento de academia o **Gympoint**. Nesta repositorio esta listado o backend da aplicação.
 
 ### ferramentas utilizadas
 
@@ -58,7 +58,27 @@ Opçao de agendamento de treinos
 
 Notificaçao de agendamento por e-mail.
 
+### informações para uso do codigo
+Para esta aplicaçao voce precisar ter instalado o [Node.js][nodejs], [Yarn][yarn], [Docker] [docker] no seu computador para conseguir usar as linhas de comando abaixo.
+
+```bash
+#Clone o repositorio com o comando
+$git clone https://github.com/guilhermeseckert/GYMPOINT Gympoint
+
+#Navegue ate pasta
+$ cd Gympoint
+
+#Instalar as dependencias do projeto
+$yarn install
+
+#Iniciando o backend
+$ yarn dev
+```
 
 
+Made with by Guilherme S Eckert :wave: [Get in touch!](https://www.linkedin.com/in/guilherme-eckert/)
 
-
+[nodejs]: https://nodejs.org/
+[yarn]: https://yarnpkg.com/
+[vc]: https://code.visualstudio.com/
+[docker]:https://www.docker.com/
