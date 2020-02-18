@@ -18,7 +18,7 @@
 <p align="center">
   <a href="#Sobre o Projeto">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#Dependencias">Dependencias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#Ferramentas">Dependencias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="#Ferramentas">Ferramentas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
 
@@ -69,7 +69,7 @@ $ yarn dev
 ```
 
 
-Made with by Guilherme S Eckert :wave: [Get in touch!](https://www.linkedin.com/in/guilherme-eckert/)
+Made with by Guilherme S.Eckert :wave: [Get in touch!](https://www.linkedin.com/in/guilherme-eckert/)
 
 [nodejs]: https://nodejs.org/
 [yarn]: https://yarnpkg.com/
