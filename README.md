@@ -64,7 +64,7 @@ $ docker run --name testeredis -p 6379:6379 -d redis
 $ cd Gympoint
 
 #Instalar as dependencias do projeto
-$yarn install
+$ yarn install
 
 #Criando as tabelas no banco de dados
 $ sequelize db:migrate
