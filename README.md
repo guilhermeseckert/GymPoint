@@ -65,7 +65,7 @@ $yarn install
 $ yarn dev
 ```
 
-<img alt="Gympoint" title="Gympoint" src="https://media.giphy.com/media/12R2bKfxceemNq/giphy.gif" width="200px" />
+<img alt="Gympoint" title="Gympoint" src="https://media.giphy.com/media/12R2bKfxceemNq/giphy.gif" width="200px" boder-radius= 50% />
 
 
 Made with by Guilherme S.Eckert :wave: [Get in touch!](https://www.linkedin.com/in/guilherme-eckert/)
