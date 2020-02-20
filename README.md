@@ -73,10 +73,7 @@ $ sequelize db:migrate
 $ yarn dev
 ```
 
-
-<h1 align="center">
       Abaixo o link do projeto web utilizando ReactJS para consumir nosso backend:
-</h1>
 
 [Web][frontend]
 
