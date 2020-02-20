@@ -73,8 +73,8 @@ $ sequelize db:migrate
 $ yarn dev
 ```
 
-Baixo o link do projeto web utilizando ReactJS para consumir nosso backend
-[Web][fontend]
+Baixo o link do projeto web utilizando ReactJS para consumir nosso backend,
+[Web][frontend]
 
 
 <h1 align="center" border-radius= "50%">
