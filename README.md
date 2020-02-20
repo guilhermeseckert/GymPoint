@@ -72,8 +72,8 @@ $ sequelize db:migrate
 #Iniciando o backend
 $ yarn dev
 ```
-Abaixo o link do projeto web utilizando ReactJS para consumir nosso backend:
-[Web][frontend]
+Front end da aplicação [Web][frontend]
+
 
 <h1 align="center" border-radius= "50%">
   <img alt="buzz" title="buzz" src="https://media.giphy.com/media/h7FqA5FAhcLfH1i6gS/giphy.gif" width="200px" />
